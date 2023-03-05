@@ -1,0 +1,43 @@
+/*attribute selectors*/
+h1[class]{
+	background-color:black;
+	color:white;
+	width:20%;
+	border:2px solid yellow;
+}
+h2[class=att2]{
+	background-color:red;
+	color:white;
+	width:20%;
+	border:2px solid yellow;
+}
+h2[class~=tilt]{
+	background-color:green;
+	color:violet;
+	width:20%;
+	border:2px solid yellow;
+}
+h2[class|=pipe]{
+	background-color:gray;
+	color:blue;
+	width:20%;
+	border:2px double yellow;
+}
+h2[class^=carat]{
+	background-color:yellow;
+	color:red;
+	width:20%;
+	border:2px double black;
+}
+h2[class$=dol]{
+	background-color:pink;
+	color:red;
+	width:20%;
+	border:2px double black;
+}
+h2[class*=ast]{
+	background-color:skyblue;
+	color:brown;
+	width:20%;
+	border:2px double red;
+}
